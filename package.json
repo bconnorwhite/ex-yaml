@@ -1,6 +1,6 @@
 {
   "name": "ex-yaml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to extract values from a YAML file.",
   "main": "./build/index.js",
   "author": "Connor White",

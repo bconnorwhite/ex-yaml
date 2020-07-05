@@ -17,7 +17,7 @@ my_port: 3000
 Sample usage:
 
 ```bash
-PORT=$(ex-yaml ./config.yaml my_port) && ...
+PORT=$(yarn ex-yaml ./config.yaml my_port) && ...
 ```
 
 Equivalent result:
