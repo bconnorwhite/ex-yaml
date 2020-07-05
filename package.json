@@ -1,0 +1,23 @@
+{
+  "name": "ex-yaml",
+  "version": "1.0.0",
+  "description": "CLI tool to extract values from a YAML file.",
+  "main": "./build/index.js",
+  "author": "Connor White",
+  "license": "MIT",
+  "bin": {
+    "ex-yaml": "./build/index.js"
+  },
+  "scripts": {
+    "build": "bob build",
+    "prepublishOnly": "yarn build",
+    "test": "node ./build/index.js"
+  },
+  "dependencies": {
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^1.4.0",
+    "@types/node": "^14.0.14"
+  }
+}
